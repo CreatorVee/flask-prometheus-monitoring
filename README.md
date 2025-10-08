@@ -8,7 +8,7 @@
 ## ⚙️ Tech Stack
 
 # Monitoring & Observability:
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/flask-prometheus-monitoring/tree/main/prometheus)
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/flask-prometheus-monitoring/tree/main/prometheus/promethueus.yml)
 [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://github.com/CreatorVee/flask-prometheus-monitoring/blob/main/docker-compose.yml)
 
 ---
@@ -72,6 +72,19 @@ monitoring-project /
 ├── requirements.txt/   # Flask and Prometheus client dependencies
 
 └── README.md /           
+
+---
+
+
+# 🎥 Demo
+![Project Demo](assets/Monitoring-demo.gif)
+
+**This demo shows how Grafana updates live metrics from the Flask app**
+
+After refreshing the Flask app several times, Grafana’s graph instantly shows the increase — **moving from 1 to 16 requests.**
+This proves that Prometheus is collecting data in real time and Grafana is displaying it visually, showing how activity on the app directly affects the monitoring dashboard.
+
+---
 
 
 # 🧰 Setup & Run
@@ -148,11 +161,33 @@ monitoring-project /
 
 - Observability Importance → Realized how monitoring helps detect, debug, and optimize services before issues impact users.
 
-  ---
-  📸 Dashboard Example
-# 🎥 Demo
-![Project Demo](assets/Monitoring-demo.gif)
+ 
+---
 
 
+<img width="1600" height="656" alt="2025-10-08_16h55_11" src="https://github.com/user-attachments/assets/72137609-d86f-446d-a02f-b5546645e8c8" />
+
+**Prometheus monitoring the Flask app on port 5000**
+
+This screenshot shows that Prometheus successfully scraped and collected metrics from the Flask service, confirming that the application is healthy and being tracked in real time.
+
+---
+
+<img width="1548" height="233" alt="2025-10-08_22h24_07" src="https://github.com/user-attachments/assets/0d295615-8922-47ec-b99a-dced39b0f05c" />
+
+**All containers running using Docker Compose**
+
+This proves that Prometheus, Grafana, and the Flask app were all started together through Docker Compose — saving time and effort by running multiple containers with a single command.
+
+---
+
+<img width="1291" height="536" alt="2025-10-08_17h57_01" src="https://github.com/user-attachments/assets/226f24b4-f79e-45b3-abd0-aedb9ed474ca" />
+
+**Flask app being monitored by Prometheus and Grafana**
+
+This is the application whose metrics are being collected and visualized. It represents how modern DevOps teams track their running services using open-source monitoring tools.
+
+
+----
 
 
