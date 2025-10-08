@@ -4,25 +4,24 @@
 
 **CLICK ON TECH STACK TO SEE HOW  I USED THESE TOOLS IN MY WORK**
 
+
 ## ⚙️ Tech Stack
 
 # Monitoring & Observability:
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/YOUR_REPO_NAME/blob/main/prometheus.yml)
-[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://github.com/CreatorVee/YOUR_REPO_NAME/blob/main/docker-compose.yml)
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/flask-prometheus-monitoring/tree/main/prometheus)
+[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://github.com/CreatorVee/flask-prometheus-monitoring/blob/main/docker-compose.yml)
 
 ---
 
 # Backend Technologies:
-[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://github.com/CreatorVee/YOUR_REPO_NAME/blob/main/app.py)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/CreatorVee/YOUR_REPO_NAME/blob/main/app.py)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://github.com/CreatorVee/flask-prometheus-monitoring/blob/main/app.py)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/CreatorVee/flask-prometheus-monitoring/blob/main/app.py)
 
 ---
 
 # DevOps & Infrastructure:
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/CreatorVee/YOUR_REPO_NAME/blob/main/Dockerfile)
-[![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/CreatorVee/YOUR_REPO_NAME/blob/main/docker-compose.yml)
-
----
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/CreatorVee/flask-prometheus-monitoring/blob/main/Dockerfile)
+[![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/CreatorVee/flask-prometheus-monitoring/blob/main/docker-compose.yml)
 
 🧠 This project demonstrates real-time monitoring and observability using Prometheus, Grafana, Flask, and Docker Compose.
 The goal is to show how monitoring tools can visualize live metrics from an application — helping engineers detect, analyze, and improve system performance.
@@ -46,15 +45,15 @@ The goal is to show how monitoring tools can visualize live metrics from an appl
 
 # 🎯Key Features
 
-Real-time tracking of Flask metrics
+- Real-time tracking of Flask metrics
 
-Prometheus scrapes metrics from the /metrics endpoint
+- Prometheus scrapes metrics from the /metrics endpoint
 
-Grafana visualizes data with interactive dashboards
+- Grafana visualizes data with interactive dashboards
 
-Docker Compose manages all services together
+- Docker Compose manages all services together
 
-Demonstrates a full DevOps-style monitoring workflow
+- Demonstrates a full DevOps-style monitoring workflow
 
 ---
 
@@ -151,6 +150,9 @@ monitoring-project /
 
   ---
   📸 Dashboard Example
+# 🎥 Demo
+![Project Demo](assets/Monitoring-demo.gif)
 
-(Insert your screenshot or GIF here once ready!)
-  
+
+
+
