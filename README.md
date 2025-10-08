@@ -8,7 +8,7 @@
 ## ⚙️ Tech Stack
 
 # Monitoring & Observability:
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/flask-prometheus-monitoring/tree/main/prometheus/promethueus.yml)
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/flask-prometheus-monitoring/tree/main/prometheus/prometheus.yml)
 [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://github.com/CreatorVee/flask-prometheus-monitoring/blob/main/docker-compose.yml)
 
 ---
